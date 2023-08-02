@@ -1,8 +1,8 @@
 self.addEventListener('install', (e) => {
     e.waitUntil(
       caches.open('fox-store').then((cache) => cache.addAll([
-        '/white-cane-app/sytle.css',
-        '/white-cane-app/index.js',
+        '/test0802/sytle.css',
+        '/test0802/index.js',
       ])),
     );
   });
